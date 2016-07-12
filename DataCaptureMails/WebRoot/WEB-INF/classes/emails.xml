@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<email-config>
+	<!-- 1.所有内容必填，否则无法发送邮件 -->
+	<!-- 2.发送邮件的账号需要开启POP3和SMTP服务 -->
+	
+	<!-- 发送方邮箱对应的smtp服务器，默认QQ邮箱 -->
+	<smtp-server>smtp.qq.com</smtp-server>
+	<!-- 发送邮件的账号密码 -->
+	<sender>
+		<username></username>
+		<password></password>
+	</sender>
+	<!-- 接收邮件的账号 -->
+	<receivers>
+		<receiver></receiver>
+	</receivers>
+</email-config>
